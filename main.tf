@@ -1,4 +1,4 @@
 provider "google" {
-  project = "infra-rede"
-  region  = "us-east1"
+  project = "YOUR-PROJECT-ID"
+  region  = "YOUR-REGION"
 }
