@@ -15,17 +15,17 @@ Explore and uncomment lines accordingly
                                     | VPC PROD |
                                     +----------+--------------- subnet-prod-sa-east1 10.11.0.0/24
                                       |
-                 VPC Peering          |
-             +------------------------+
-             |                                   
-             | 
+                     VPC Peering      |
+                +---------------------+
+                |                                   
+                | 
            +---------+--------------- subnet-hub-us-east1 10.0.0.0/24
            | VPC HUB |
            +---------+--------------- subnet-hub-sa-east1 10.0.5.0/24
-             | 
-             |   
-             +------------------------+-
-                 VPC Peering          |                 
+                | 
+                |   
+                +---------------------+
+                     VPC Peering      |                 
                                       | 
                                       +-----------+------------ subnet-nprod-us-east1 10.16.0.0/24
                                       | VPC NPROD |
